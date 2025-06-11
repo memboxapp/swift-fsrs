@@ -1,7 +1,7 @@
 import Foundation
 
 public struct ShortTermScheduler: Scheduler {
-  public init() { self.init(algorithm: .v5) }
+public init() { self.init(algorithm: FSRSAlgorithm.v5) }
   public func schedule(
     card: Card,
     algorithm: FSRSAlgorithm,
